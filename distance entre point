@@ -1,0 +1,12 @@
+ public float distancePoint(Point P)
+ {
+     double x1, x2, y1, y2, dist;
+     x1 = this.abcisse;
+     y1 = this.ordonnee;
+     x2 = P.abcisse;
+     y2 = P.ordonnee;
+     dist = Math.sqrt(Math.pow(x2-x1, 2)+Math.pow(y2-y1, 2));
+     return ((float) dist);
+     
+            
+ }
