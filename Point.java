@@ -19,8 +19,6 @@ public class Point {
         this.abscisse = abscisse;
         this.ordonnee = ordonnee;
     }
-    
-    
   
 
     public String getNom() {
